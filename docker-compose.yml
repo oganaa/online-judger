@@ -18,7 +18,6 @@ services:
       - POSTGRES_DB=onlinejudge
       - POSTGRES_USER=onlinejudge
       - POSTGRES_PASSWORD=onlinejudge
-
   judge-server:
     build: ./JudgeServer
     container_name: judge-server
